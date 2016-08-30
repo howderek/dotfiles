@@ -10,7 +10,7 @@ function cleanup {
 trap cleanup EXIT
 
 cd $dotfile_tmpdir
-curl -OL https://github.com/howderek/dotfiles/archive/master.tar.gz
+curl -O https://github.com/howderek/dotfiles/archive/master.tar.gz
 tar -zxf master.tar.gz
 cd ./dotfiles-master
 mv ./files/* ~/
