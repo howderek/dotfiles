@@ -1,7 +1,7 @@
 # dotfiles
 Local Install: 
 
-`curl -fsS https://raw.githubusercontent.com/howderek/dotfiles/master/install.sh | bash`
+    curl -fsS https://raw.githubusercontent.com/howderek/dotfiles/master/install.sh | bash
 
 
 Remote Install: 
