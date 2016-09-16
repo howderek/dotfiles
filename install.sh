@@ -13,6 +13,6 @@ cd $dotfile_tmpdir
 curl -OL https://github.com/howderek/dotfiles/archive/master.tar.gz
 tar -zxf master.tar.gz
 cd ./dotfiles-master
-mv ./files/* ~/
+mv ./files/.* ~/
 
 echo "Installed. Login again to see changes."
